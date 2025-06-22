@@ -22,9 +22,9 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 5000
-        running: presentation.activatedInCalamares
-        repeat: true
+        interval: 15000
+        running: false
+        repeat: false
         onTriggered: nextSlide()
     }
 
@@ -33,179 +33,10 @@ Presentation
         anchors.verticalCenterOffset: 0
         Image {
             id: background1
-            source: "cal-01.png"
-            width: parent.width; height: parent.height
+            source: "slide1.png"
+            width: 900; height: 506
             verticalAlignment: Image.AlignTop
-            fillMode: Image.PreserveAspectCrop
-            anchors.fill: parent
-        }
-
-    }
-
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: background2
-            source: "cal-02.png"
-            width: parent.width; height: parent.height
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.PreserveAspectCrop
-            anchors.fill: parent
-        }
-
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: background3
-            source: "cal-03.png"
-            width: parent.width; height: parent.height
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.PreserveAspectCrop
-            anchors.fill: parent
-        }
-
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: background4
-            source: "cal-04.png"
-            width: parent.width; height: parent.height
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.PreserveAspectCrop
-            anchors.fill: parent
-        }
-
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: background5
-            source: "cal-05.png"
-            width: parent.width; height: parent.height
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.PreserveAspectCrop
-            anchors.fill: parent
-        }
-
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: background6
-            source: "cal-06.png"
-            width: parent.width; height: parent.height
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.PreserveAspectCrop
-            anchors.fill: parent
-        }
-
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: background7
-            source: "cal-07.png"
-            width: parent.width; height: parent.height
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.PreserveAspectCrop
-            anchors.fill: parent
-        }
-
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: background9
-            source: "cal-09.png"
-            width: parent.width; height: parent.height
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.PreserveAspectCrop
-            anchors.fill: parent
-        }
-
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: backgroun10
-            source: "cal-10.png"
-            width: parent.width; height: parent.height
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.PreserveAspectCrop
-            anchors.fill: parent
-        }
-
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: background11
-            source: "cal-11.png"
-            width: parent.width; height: parent.height
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.PreserveAspectCrop
-            anchors.fill: parent
-        }
-
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: background12
-            source: "cal-12.png"
-            width: parent.width; height: parent.height
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.PreserveAspectCrop
-            anchors.fill: parent
-        }
-
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: background13
-            source: "cal-13.png"
-            width: parent.width; height: parent.height
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.PreserveAspectCrop
-            anchors.fill: parent
-        }
-
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-        Image {
-            id: background14
-            source: "cal-14.png"
-            width: parent.width; height: parent.height
-            verticalAlignment: Image.AlignTop
-            fillMode: Image.PreserveAspectCrop
+            fillMode: Image.Stretch
             anchors.fill: parent
         }
 
